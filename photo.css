@@ -1,0 +1,148 @@
+body {
+    background: rgb(22, 22, 22);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+
+  }
+  ul{
+      list-style-type: none;
+      display: flex;
+      background: #010203;
+      width: 100%;
+      font-family:Tahoma;
+      height: 50px;
+      margin-top:0 ;
+      padding: 15px;
+  }
+  li{
+      font-family:  Tahoma, sans-serif;
+  }
+  
+  section{
+      display: flex;
+      margin-left: 10%;
+  }
+  .img1{
+      display:block;
+      margin: 1px;
+      height: 250px;
+      width: 200px;
+  }
+  .img2{
+      margin: 1px;
+      height: auto;
+      width:auto;
+
+  }
+  a{
+      padding: 5px;
+      margin: 10px;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: tahoma;
+      color: white;
+  }
+      a:hover{
+      color: #000;
+
+    } 
+  p{
+      color: #f9fdfd;
+      font-size:20px;
+      font-weight: bold;
+      margin: 10px;
+      margin-right: 50px;
+      left: 100px;
+      animation: abd infinite 2s ;
+  }
+  @keyframes abd {
+      0%{
+          color :#fefbff;
+      }
+      50%{
+          color:#3a3433;
+      }
+      75%{
+          color: #fff;
+      }
+  }
+  
+
+ #a1{
+     margin-top: 0%;
+     margin-right:300px ;
+ }
+ #contact{
+     display: flex;
+     margin-left: 50%;
+ }
+ .link{
+     font-size: 20px;
+    text-indent: 0%;
+    margin: 0px;
+    size: 25px;
+    color: #000;
+    font-weight: 25px;
+    font-size: xx-large;
+
+
+ }
+ .link:hover{
+     color: #fefbff;
+     font-size: 40px;
+ }
+ #dropdownMenu2{
+     margin-top: 0;
+     width: 200px;
+ }
+ button{
+     top: 0%;
+     color: #fff;
+ }
+.pics{
+    margin-left: 20%;
+}
+.pics2{
+  margin-left:30% ;
+}
+.pics3{
+    margin-left: 21%;
+
+}
+.space{
+  height: 100px;
+  width: 100%;
+}
+
+.dropdown-item {
+    
+    color: #010203;
+    text-align: left;
+    text-decoration: none;
+    border: 0;
+    background: hidden;
+}
+#lst{
+    background:none;
+    color: #fff;
+}
+#lst:hover{
+    background-color: #fff;
+    color: black;
+}

@@ -179,5 +179,10 @@ body {
             transition-property: transform;
             box-sizing: content-box;
     }
+    .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 }
 

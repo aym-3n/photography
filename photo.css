@@ -146,29 +146,24 @@ body {
     background-color: #fff;
     color: black;
 }
-@media (max-width:750px) {
-    .swiper-container {
-        width: 80%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-      .swiper-slide {
-        background-position: center;
-        background-size: cover;
-        width: 260px;
-        height: 400px;
 
-}
 @media (max-width:750px) {
-    .swiper-container {
+    .swiper-container
+      {
         width: 100%;
         padding-top: 50px;
         padding-bottom: 50px;
       }
-      .swiper-slide {
+      .swiper-slide 
+      {
         background-position: center;
         background-size: cover;
         width: 100px;
         height: 300px;
+       }
+    
+    
+    
+    
 
 }

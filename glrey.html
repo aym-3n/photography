@@ -12,18 +12,34 @@
     <br>
 
     <div class="pics">
-        <img src="imgm.jpg" alt="">
+        <img id="my-image" onclick="scaleImage()" alt = "my image"  src="imgm.jpg" alt="">
         <img src="IMG.jpg" alt="">
     </div> <br>
     <div class="pics2">
-        <img src="imgu.jpg" alt="">
-        <img src="imgh.jpg" alt="">
+        <img id="my-image" onclick="scaleImage()" alt = "my image" src="imgu.jpg" alt="">
+        <img id="my-image" onclick="scaleImage()" alt = "my image" src="imgh.jpg" alt="">
     </div><br>
     <div class="pics3">
-        <img src="imgs.jpg" alt="">
-        <img src="IMGa2.jpg" alt="">
-        <img src="imgb.jpg" alt="">
+        <img id="my-image" onclick="scaleImage()" alt = "my image"  src="imgs.jpg" alt="">
+        <img id="my-image" onclick="scaleImage()" alt = "my image"  src="IMGa2.jpg" alt="">
+        <img id="my-image" onclick="scaleImage()" alt = "my image"  src="imgb.jpg" alt="">
 
     </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        function scaleImage() {
+   var img =  document.getElementById("my-image");
+
+img.style.width = "750px";
+img.style.height = "400px";
+}
+    </script>
 </body>
 </html>

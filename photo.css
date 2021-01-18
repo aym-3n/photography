@@ -186,15 +186,13 @@ body {
         hight:233px;
     }
     .pics2{
-    margin-left:1%;
-    margin-right:2%;
-    margin-top:1%;
-    margin-bottom:4%;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:50px;
     width:200px;
     height:300px;
     }
-    .pics3{
-    margin:10px}
     
         
 }

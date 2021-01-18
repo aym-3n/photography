@@ -161,14 +161,7 @@ body {
         padding-bottom: 0px;
         z-index: 1;
     }
-      .swiper-slide 
-      {
-        background-position: center;
-        background-size: cover;
-        width: 50px;
-        height: 120;
-       }
-    
+  
     .swiper-wrapper
     {
             position: relative;

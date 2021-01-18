@@ -180,8 +180,18 @@ body {
     .pics{
         margin-left:1%;
         margin-right:1%;
+        margin-top:4%;
+        margin-bottom:5%;
         width:350px;
         hight:233px;
+    }
+    .pics2{
+    margin-left:1%;
+    margin-right:1%;
+    margin-top:1%;
+    margin-bottom:4%;
+    width:200px;
+    height:300px;
     }
         
 }

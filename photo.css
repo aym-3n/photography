@@ -146,3 +146,16 @@ body {
     background-color: #fff;
     color: black;
 }
+@media (max-width:750px) {
+    .swiper-container {
+        width: 80%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 260px;
+        height: 400px;
+
+}

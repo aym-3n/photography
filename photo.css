@@ -186,8 +186,7 @@ body {
         hight:233px;
     }
     .pics2{
-    margin-left:10px;
-    margin-right:10px;
+    display:block;
     margin-top:10px;
     margin-bottom:200px;
     width:200px;
